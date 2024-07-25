@@ -472,7 +472,7 @@ html{
 /*EXTRA SMALL DEVICES!*/
 @media (max-width: 575.98px) {
     :root{
-        --main-color:blue;
+        --main-color:#54B;
         --large-font:2.1rem;
         --medium-font:1.5rem;
     }
@@ -488,6 +488,7 @@ html{
     /*HOME Section */
     .home{
         height: 60vh;
+        padding-block: 5vh;
     }
     .home .wrapper{
         margin-block: 15vh;
