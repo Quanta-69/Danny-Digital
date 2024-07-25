@@ -487,11 +487,11 @@ html{
     }
     /*HOME Section */
     .home{
-        height: 100vh;
-        padding-block: 500px;
+        height: 60vh;
+        padding-block: 300px;
     }
     .home .wrapper{
-        margin-block: 5vh;
+        margin-block: 50px;
     }
     .home .wrapper .child-1{
         width: 100%;
