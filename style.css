@@ -488,7 +488,7 @@ html{
     /*HOME Section */
     .home{
         height: max-content;
-        padding-block: 200px;
+        padding-block: 80px;
     }
     .home .wrapper{
         margin-block: 50px;
