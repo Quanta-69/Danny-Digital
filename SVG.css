@@ -1,0 +1,141 @@
+.svg-display{
+    display: none;
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .svg-display{
+        display: block;
+    }
+}
+.svg-bg{
+    color: var(--main-color) !important;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    position: relative;
+}
+.svgs-container{
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50%;
+    z-index: -1;
+    padding: 10%;
+}
+.svg-bg:nth-child(1){
+    color: red;
+    transform:translate(30%, -50%) rotate(-30deg);
+}
+.svg-bg:nth-child(2){
+    color: orange;
+    left: 10%;
+    top: 5%;
+}
+.svg-bg:nth-child(3){
+    color: aliceblue;
+    transform: rotate(-30deg);
+    top: -20%;
+}
+.svg-bg:nth-child(4){
+    color: lime;
+    transform: rotate(30deg);
+    top: -18%;
+    right: -7%;
+}
+.svg-bg:nth-child(5){
+    color: blue;
+    transform: rotate(30deg);
+    left: -20%;
+    top: -1%;
+}
+.svg-bg:nth-child(6){
+    color: hotpink;
+}
+.svg-bg:nth-child(7){
+    color: cyan;
+    left: -10%;
+    transform: rotate(30deg);
+    transform:translate(-10%, -70%) rotate(-30deg);
+}
+.svg-bg:nth-child(8){
+    color: aquamarine;
+    transform:translate(-100%, 30%) rotate(-30deg);
+}
+.svg-bg:nth-child(9){
+    color: aquamarine;
+}
+.svg-bg:nth-child(10){
+    color: red;
+    top: 30%;
+    right: -7%;
+}
+.svg-bg:nth-child(11){
+    color: beige;
+    top: -10%;
+}
+.svg-bg:nth-child(12){
+    color: blueviolet;
+    right: -10%;
+    transform: rotate(30deg);
+    right: -18%;
+}
+.svg-bg:nth-child(13){
+    color: cyan;
+    transform:translate(-100%, -10%) rotate(-30deg);
+}
+.svg-bg:nth-child(14){
+    color: wheat;
+    transform:translate(-10%, -10%) rotate(8deg);
+}
+.svg-bg:nth-child(15){
+    color: aliceblue;
+    transform: rotate(-30deg);
+    top: -20%;
+    right: -20%;
+}
+.svg-bg:nth-child(16){
+    color: violet;
+    transform: rotate(30deg);
+    right: -25%;
+    top: 15%;
+}
+.svg-bg:nth-child(17){
+    color: tan;
+    top: -15%;
+    right: -15%;
+}
+.svg-bg:nth-child(18){
+    color: teal;
+    right:-17%;
+    bottom: -3%;
+}
+.svg-bg:nth-child(19){
+    color: thistle;
+    transform: rotate(30deg);
+}
+.svg-bg:nth-child(20){
+    color: tomato;
+    transform:translate(40%, 110%) rotate(-30deg);
+}
+.svg-bg:nth-child(21){
+    color: brown;
+    transform: rotate(-30deg);
+    right: 3%;
+    top:-12%;
+}
+.svg-bg:nth-child(22){
+    color: lawngreen;
+    bottom: -20%;
+    rotate: 5deg;
+}
+.svg-bg:nth-child(23){
+    color: skyblue;
+    transform: rotate(30deg);
+    right: 20%;
+}
+.svg-bg:nth-child(24){
+    color: pink;
+    right: 2%;
+    bottom: -10%;
+}

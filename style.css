@@ -4,7 +4,15 @@
     --large-font:3.9rem;
     --medium-font:2.8rem;
     --small-font:1.4rem;
-    --main-color:/*rgb(152, 72, 152) #005B61 #008EAC #1D465E #54B #ED6474 #D05A10*/#509 ;
+    --main-color:/**/ var(--pastel-hotpink);
+    --pastel-pink:#ED6474;
+    --pastel-dark-teal:#005B61;
+    --pastel-cyan:#008EAC;
+    --pastel-sea-blue:#1D465E;
+    --pastel-orange:#D05A10;
+    --pastel-purple:#54B;
+    --pastel-indigo:#509;
+    --pastel-hotpink:#984898;
 }
 *{
     padding: 0;
@@ -176,6 +184,7 @@ html{
 .home .wrapper .child-2{
     background: url(Danny\ Digital.jpeg);
     background-position: center;
+    background-repeat: no-repeat;
     width: 40%;
 }
 
@@ -472,7 +481,7 @@ html{
 /*EXTRA SMALL DEVICES!*/
 @media (max-width: 575.98px) {
     :root{
-        --main-color:#54B;
+        --main-color:#D05A10;
         --large-font:2.1rem;
         --medium-font:1.5rem;
     }
@@ -568,7 +577,23 @@ html{
 /*SMALL DEVICES (TABLETS AND ABOVE)*/
 @media (min-width: 576px) and (max-width: 768px) {
     :root{
-        --main-color:red;
+        --main-color:var(--pastel-cyan);
+        --large-font:2.5rem;
+    }
+    
+    /*HOME Section*/
+    .home .wrapper{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-grow: 2;
+        flex-shrink: 1;
+    }
+    .home .wrapper .child-1{
+        height: max-content;
+        padding-block: 10px;
+    }
+    .home .wrapper .child-2{
+        display: none;
     }
 }
 
