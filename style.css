@@ -487,11 +487,9 @@ html{
     }
     /*HOME Section */
     .home{
-        height: max-content;
-        padding-block: 10px;
-    }
-    .home .wrapper{
-        margin-block: 50px;
+        display: flex;
+        align-items: center;
+        height:80vh;
     }
     .home .wrapper .child-1{
         width: 100%;
