@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap');
 :root{
-    --light-color:grey;
+    --light-color:rgba(255, 255, 255, .3);
     --large-font:3.9rem;
     --medium-font:2.8rem;
     --small-font:1.4rem;
@@ -114,7 +114,7 @@ html{
 }
 .navbar a:hover{
     color:white;
-    background:var(--main-color);
+    background:var(--light-color);
 }
 .home{
     height: 100vh;
